@@ -1,0 +1,10 @@
+body {
+  margin: 0px;
+  font-family: roboto, Arial, sans-serif;
+  background-color: rgb(209, 138, 7);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
