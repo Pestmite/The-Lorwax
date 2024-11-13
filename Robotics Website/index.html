@@ -9,32 +9,40 @@
 
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/headers/header.css">
+  <link rel="stylesheet" href="styles/headers/subheader.css">
   <link rel="stylesheet" href="styles/main.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;900&amp;display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="header">
     <div class="left-section">
-      <div class="nav-element">
-       <img class="translate" src="images/icons/translate.png" alt="translate-icon"> 
-      </div>
       
     </div>
 
     <div class="right-header">
-      <nav class="nav-element">About the Lorax</nav>
-      <nav class="nav-element">Our Team</nav>
-      <nav class="nav-element">CRC Competiton Rules</nav>
-      <nav class="nav-element">Journal</nav>
-      <nav class="nav-element">Game</nav>
+      <a class="nav-element">About the Lorax</a>
+      <a class="nav-element">CRC Competiton Rules</a>
+      <a class="nav-element">Journal</a>
+      <a class="nav-element">Game</a>
+      <div class="nav-element">
+        <img class="translate" src="images/icons/translate.png" alt="translate-icon"> 
+       </div>
     </div>
   </header>
 
   <main>
     <img class="index-image" src="images/lorax-scene.jpg" alt="lorax-scene">
 
-    <section class="about section">
+    <header class="sub-navbar">
+      <div class="sub-navbar-elements">
+        <a href="#about-us" class="nav-button">About Us</a>
+        <a href="#about-rwa" class="nav-button">About Royal West Academy</a>
+        <a href="#roster" class="nav-button">Our Team Roster</a>
+      </div>
+    </header>
+
+    <section class="about" id="about-us">
       <aside class="map-aside">
         <iframe src="
           https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5597.917501619214!2d-73.64582762405378!3d45.450487334354094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9172a328fdf07%3A0x2e514800dddc679e!2sRoyal%20West%20Academy!5e0!3m2!1sen!2sca!4v1731360682298!5m2!1sen!2sca" 
@@ -45,40 +53,31 @@
       <section class="about-section">
         <div>
           <h2 class="section-header about-title">About Us</h2>
-        <article class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum, 
-          a dignissimos nam eos nisi dolorum. Minima praesentium, dolorum voluptates nemo doloremque corrupti
-          in dolores alias nihil quisquam harum, eos consectetur illo doloribus quae quod vel eligendi
-          ratione repellendus iste a quam accusantium fugiat. Reprehenderit, explicabo saepe!
-          <br><br>
+          <article class="about-text paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum, 
+            a dignissimos nam eos nisi dolorum. Minima praesentium, dolorum voluptates nemo doloremque corrupti
+            in dolores alias nihil quisquam harum, eos consectetur illo doloribus quae quod vel eligendi
+            ratione repellendus iste a quam accusantium fugiat. Reprehenderit, explicabo saepe!
+            <br><br>
+          </article>
+
+          <article class="paragraph">
             Aliquid inventore odit
-          nostrum amet ipsum in molestiae neque beatae quo tenetur numquam architecto necessitatibus mollitia obcaecati
-          repudiandae omnis sit aperiam explicabo dicta itaque fuga, non facere rem. Dolor et porro ad nam.
-        </article>
+            nostrum amet ipsum in molestiae neque beatae quo tenetur numquam architecto necessitatibus mollitia obcaecati
+            repudiandae omnis sit aperiam explicabo dicta itaque fuga, non facere rem. Dolor et porro ad nam.
+          </article>
         </div>
         <div class="team-container">
-          <button class="view-team-button">View Our Team</button>
+          <a href="#roster" class="view-team-button">About Us</a>
         </div>
       </section>
     </section>
 
-    <section class="section grey">
-      <h2 class="section-header">About The Lorax</h2>
+    <section class="grey" id="about-rwa">
+      <h2 class="section-header">About Royal West Academy</h2>
     </section>
 
-    <section class="section">
-      <h2 class="section-header">Our Team</h2>
-    </section>
-
-    <section class="section grey">
-      <h2 class="section-header">CRC Competiton Rules</h2>
-    </section>
-
-    <section class="section">
-      <h2 class="section-header">Journal</h2>
-    </section>
-
-    <section class="section grey">
-      <h2 class="section-header">Game</h2>
+    <section id="roster">
+      <h2 class="section-header">Our Team Roster</h2>
     </section>
   </main>
 
@@ -101,5 +100,7 @@
 
     </div>
   </footer>
+
+  <script src="javascript/main.js"></script>
 </body>
 </html>
