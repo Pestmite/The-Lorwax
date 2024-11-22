@@ -1,10 +1,4 @@
 .sub-navbar {
-  /* position: fixed;
-  top: 600px;
-  right: 0px;
-  left: 0px;
-  z-index: 5; */
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,8 +6,13 @@
   background-color: whitesmoke;
 
   height: 38px;
-  margin-top: -4px;
+  margin: 50% 15% 0px;
   padding: 0px 4px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+
+  position: relative;
+  z-index: 10;
 }
 
 .sub-navbar-elements {
@@ -27,4 +26,8 @@
   padding: 4px 8px;
   color: rgb(97, 97, 97);
   text-decoration: none;
+}
+
+.nav-button:hover {
+  color: rgb(124, 124, 124);
 }
