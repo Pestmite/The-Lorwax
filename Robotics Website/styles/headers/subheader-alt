@@ -1,0 +1,30 @@
+.sub-navbar {
+  /* position: fixed;
+  top: 600px;
+  right: 0px;
+  left: 0px;
+  z-index: 5; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: whitesmoke;
+
+  height: 38px;
+  margin-top: -4px;
+  padding: 0px 4px;
+}
+
+.sub-navbar-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 440px;
+}
+
+.nav-button {
+  padding: 4px 8px;
+  color: rgb(97, 97, 97);
+  text-decoration: none;
+}
