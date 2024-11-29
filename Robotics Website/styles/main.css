@@ -30,6 +30,13 @@ section {
   margin: 0px;
 }
 
+.about-title, .game-title, .lorax-title, .rules-title, .journal-title {
+  margin: 16px 0px 0px 24px;
+  padding-bottom: 4px;
+  font-size: 28px;
+  border-bottom: solid 1px rgb(209, 209, 209);
+}
+
 /*|| About Us Section */
 .about {
   display: flex;
@@ -64,14 +71,10 @@ section {
 }
 
 .about-title {
-  margin: 16px 0px 0px 24px;
-  padding-bottom: 4px;
   width: 116px;
-  font-size: 28px;
-  border-bottom: solid 1px rgb(209, 209, 209);
 }
 
-.about-text {
+.content-text {
   margin-top: 20px;
 }
 
@@ -96,6 +99,7 @@ section {
   border: solid 2px rgb(179, 179, 179);
 
   transition: background-color 0.2s, color 0.3s;
+  cursor: pointer;
 }
 
 .view-team-button:hover {
