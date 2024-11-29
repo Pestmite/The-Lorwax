@@ -1,10 +1,19 @@
 body {
   margin: 0px;
-  font-family: roboto, Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   background-color: rgb(209, 138, 7);
 
   overflow-x: hidden;
 }
+
+.funk {
+  font-family: Grinched, Arial, Helvetica, sans-serif;
+}
+
+@font-face { 
+  font-family: Grinched; 
+  src: url('../fonts/GrinchedRegular.otf'); 
+} 
 
 ::-webkit-scrollbar {
   display: none;
