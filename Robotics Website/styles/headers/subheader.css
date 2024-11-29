@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: space-between;
   width: 440px;
+  margin-left: 16px;
 }
 
 .nav-button {
@@ -32,5 +33,9 @@
 
 .nav-button:hover {
   color: rgb(124, 124, 124);
-}-decoration: none;
+}
+
+/*|| Custom Subheaders */
+.lorax-elements {
+  width: 400px;
 }
