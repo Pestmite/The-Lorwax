@@ -27,11 +27,55 @@
   cursor: pointer;
 }
 
-.footer-arrow {
-  width: 36px;
-  top: 6px;
-  right: 16px;
+.game-nav {
+  margin-top: 214px;
+}
+
+.lorax-nav {
+  margin-top: 54px;
+}
+
+.rules-nav {
+  margin-top: 108px;
+}
+
+.arrow-container {
+  width: 100px;
+  height: 24px;
+  padding-right: 20px;
+
+  right: -4px;
+  top: 14px;
   position: absolute;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.arrow-container-game {
+  top: 230px;
+}
+
+.arrow-container-lorax {
+  top: 70px;
+}
+
+.arrow-container-rules {
+  top: 124px;
+}
+
+.arrow-container:hover {
+  cursor: pointer;
+}
+
+.footer-arrow {
+  height: 24px;
+  transition: margin-right 0.5s;
+  margin-right: 14px;
+}
+
+.arrow-js {
+  margin-right: -28px;
 }
 
 /*|| Upper Footer */
@@ -46,7 +90,7 @@
   border-right: solid 1px rgb(65, 65, 65);
   width: 300px;
   margin-right: 30px;
-  padding-right: 60px;
+  padding-right: 40px;
 
   font-size: 26px;
   font-weight: 700;
