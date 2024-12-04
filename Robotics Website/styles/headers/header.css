@@ -1,5 +1,5 @@
 .header {
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -22,7 +22,12 @@
 }
 
 .translate {
-  height: 34px;
+  height: 32px;
+  transition: height 0.3s;
+}
+
+.translate-js {
+  height: 38px;
 }
 
 /* || Right Section*/
@@ -32,7 +37,7 @@
 
   width: 590px;
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 @property --starting-color {
@@ -55,11 +60,12 @@
   cursor: pointer;
   
   background-image: linear-gradient(to top, var(--starting-color), 10%, rgba(0, 0, 0, 0));
-  transition: --starting-color 0.4s;
+  transition: --starting-color 0.4s, font-size 0.3s;
 }
 
 .nav-element:hover {
   --starting-color: rgba(0, 0, 0, 0.7);
+  font-size: 24px;
 }
 
 @media (max-width: 1050px) {
