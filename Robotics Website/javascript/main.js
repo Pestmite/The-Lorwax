@@ -18,3 +18,11 @@ document.querySelector('.arrow-container').addEventListener('mouseover', () => {
 document.querySelector('.arrow-container').addEventListener('mouseout', () => {
   document.querySelector('.footer-arrow').classList.remove('arrow-js');
 });
+
+document.querySelector('.translate-element').addEventListener('mouseover', () => {
+  document.querySelector('.translate').classList.add('translate-js');
+});
+
+document.querySelector('.translate-element').addEventListener('mouseout', () => {
+  document.querySelector('.translate').classList.remove('translate-js');
+});
