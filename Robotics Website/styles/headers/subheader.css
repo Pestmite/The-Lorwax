@@ -8,12 +8,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 
   background-color: whitesmoke;
 
   height: 38px;
   margin-top: -4px;
   padding: 0px 4px;
+  z-index: 20;
 }
 
 .sub-navbar-elements {
