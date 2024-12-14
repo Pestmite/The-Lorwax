@@ -27,7 +27,7 @@
 }
 
 .translate-js {
-  height: 38px;
+  height: 38px !important;
 }
 
 /* || Right Section*/
