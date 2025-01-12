@@ -1,16 +1,21 @@
-/*|| General Footer */
+/* || General Footer */
 .footer {
   height: 500px;
-  background-color: rgb(209, 138, 7);
-  padding: 30px;;
+  background-color: rgb(255, 141, 41);
+  color: black;
+  padding: 30px 30px 10px 30px;
   box-shadow: 0px 2px 10px black;
   border-radius: 15px 15px 0px 0px ;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   position: relative;
   z-index: 11;
 }
 
-/*|| General Upper Footer */
+/* || General Upper Footer */
 .footer-nav {
   color: black;
   text-decoration: none;
@@ -88,8 +93,13 @@
   margin-right: -28px;
 }
 
-/*|| Upper Footer */
+/* || Upper Footer */
 .upper-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper-leftern-footer {
   display: flex;
 }
 
@@ -116,4 +126,73 @@
 
   font-size: 22px;
   font-weight: 500;
+}
+
+@media (max-width: 1050px) {
+  .upper-middle-footer {
+    display: none;
+  }
+
+  .arrow-container {
+    display: none;
+  }
+
+  .upper-left-footer {
+    border: none;
+    margin-right: 0px;
+    padding-right: 00px;
+  }
+}
+
+.upper-right-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.telephone-number {
+  padding-bottom: 10px;
+}
+
+.upper-right-left, .upper-right-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box {
+  border-top: 1px solid black;
+  padding: 6px 0px;
+}
+
+@media (max-width: 675px) {
+  .upper-right-footer {
+    display: none;
+  }
+}
+
+/* || Lower Footer */
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin: 0px 10% 20px 0px;
+  transition: margin 0.3s;
+}
+
+.lower-footer-div {
+  width: 200px;
+  color: rgb(255, 224, 166);
+}
+
+@media (max-width: 850px) {
+  .lower-footer-div {
+    display: none;
+  }
+
+  .footer-logo {
+    margin: 0px 0px 20px 0px;
+  }  
 }
