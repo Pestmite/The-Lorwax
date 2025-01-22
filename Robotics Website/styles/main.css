@@ -1,7 +1,7 @@
 /* || Main Image */
 .index-image {
   width: 100%;
-  height: 694px;
+  height: 100vh;
 
   object-fit: cover;
   object-position: 10% 50%;
@@ -14,7 +14,7 @@
 
 @media (max-width: 1050px) {
   .index-image {
-    height: 600px;
+    height: 100vh;
     object-position: 10% 50%;
   }
 }
@@ -33,7 +33,7 @@ section {
 }
 
 .grey {
- background-color: rgb(101, 101, 101); 
+  background-color: rgb(211, 211, 211); 
 }
 
 .section-header {
