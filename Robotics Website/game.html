@@ -1,32 +1,33 @@
-<!--Note To self: website currently breaks down at around 660px-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>The Lorwax</title>
+  <title>The Larwax</title>
 
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/headers/header.css">
   <link rel="stylesheet" href="css/headers/subheader.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/secondary-main.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;900&amp;display=swap" rel="stylesheet">
-  <link href="GrinchedRegular.otf" rel="stylesheet">
 </head>
 <body>
   <header class="header">
     <div class="left-section">
-      <a href="index.html" class="nav-element">LOGO</a>
+      <a href="index.html">
+        <img src="images/icons/logo.png" class="logo nav-element">
+      </a>
     </div>
 
     <div class="right-header funk">
       <a href="lorax.html" class="nav-element">About the Lorax</a>
       <a href="rules.html" class="nav-element">CRC Competiton Rules</a>
       <a href="journal.html" class="nav-element">Journal</a>
-      <a href="game.html" class="nav-element">Game</a>
-      <div class="nav-element translate-element">
+      <a href="game.html" class="nav-element">Game & Tutorial</a>
+      <div class="nav-element">
         <img class="translate" src="images/icons/translate.png" alt="translate-icon"> 
       </div>
     </div>
@@ -35,51 +36,39 @@
   <main>
     <img class="index-image" src="images/lorax-scene.jpg" alt="lorax-scene">
 
-
     <header class="sub-navbar">
-      <div class="sub-navbar-elements">
-        <a href="#about-us" class="nav-button">About Us</a>
-        <a href="#about-rwa" class="nav-button">About Royal West Academy</a>
-        <a href="#roster" class="nav-button">Our Team Roster</a>
+      <div class="sub-navbar-elements game-elements">
+        <a href="#game" class="nav-button">The Game</a>
+        <a href="#tutorial" class="nav-button">The Tutorial</a>
       </div>
     </header>
 
-    <section class="section about" id="about-us">
-      <aside class="map-aside">
-        <iframe src="
-          https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5597.917501619214!2d-73.64582762405378!3d45.450487334354094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc9172a328fdf07%3A0x2e514800dddc679e!2sRoyal%20West%20Academy!5e0!3m2!1sen!2sca!4v1731360682298!5m2!1sen!2sca" 
-            allow="fullscreen=" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map">
-          </iframe>
-      </aside>
+    <section class="section game" id="game">
+      <div>
+        <h2 class="section-header game-title">The Game</h2>
+        <article class="content-text paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum, 
+          a dignissimos nam eos nisi dolorum. Minima praesentium, dolorum voluptates nemo doloremque corrupti
+          in dolores alias nihil quisquam harum, eos consectetur illo doloribus quae quod vel eligendi
+          ratione repellendus iste a quam accusantium fugiat. Reprehenderit, explicabo saepe!
+          <br><br>
+        </article>
 
-      <section class="about-section">
-        <div class="about-us-top">
-          <h2 class="section-header about-title">About Us</h2>
-          <article class="content-text paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero harum, 
-            a dignissimos nam eos nisi dolorum. Minima praesentium, dolorum voluptates nemo doloremque corrupti
-            in dolores alias nihil quisquam harum, eos consectetur illo doloribus quae quod vel eligendi
-            ratione repellendus iste a quam accusantium fugiat. Reprehenderit, explicabo saepe!
-            <br><br>
-          </article>
-
-          <article class="paragraph">
-            Aliquid inventore odit
-            nostrum amet ipsum in molestiae neque beatae quo tenetur numquam architecto necessitatibus mollitia obcaecati
-            repudiandae omnis sit aperiam explicabo dicta itaque fuga, non facere rem. Dolor et porro ad nam.
-          </article>
-        </div>
-        <div class="team-container">
-          <a href="#roster" class="view-team-button">About Us</a>
-        </div>
-      </section>
+        <article class="paragraph">
+          Aliquid inventore odit
+          nostrum amet ipsum in molestiae neque beatae quo tenetur numquam architecto necessitatibus mollitia obcaecati
+          repudiandae omnis sit aperiam explicabo dicta itaque fuga, non facere rem. Dolor et porro ad nam.
+        </article>
+      </div>
+      <div class="team-container">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="game-button">Play</a>
+      </div>
     </section>
 
-    <section class="section grey" id="about-rwa">
-      <h2 class="section-header">About Royal West Academy</h2>
-    </section>
+    <section class="section game grey" id="tutorial">
+      <div>
+        <h2 class="section-header">The Tutorial</h2>
 
-    <section id="roster" class="section">
-      <h2 class="section-header">Our Team Roster</h2>
+      </div>
     </section>
   </main>
 
@@ -92,15 +81,13 @@
         <a href="rules.html" class="footer-nav">CRC Competiton Rules</a>
         <a href="journal.html" class="footer-nav">Journal</a>
         <a href="game.html" class="footer-nav">Game</a>
-          <div class="arrow-container">
+          <div class="arrow-container arrow-container-game">
             <img src="images/icons/arrow.png" class="footer-arrow">
           </div>
         </div>
 
-        <div class="upper-middle-footer">
-          <a href="#about-us" class="footer-nav">About Us</a>
-          <a href="#about-rwa" class="footer-nav">About Royal West Academy</a>
-          <a href="#roster" class="footer-nav">Our Team Roster</a>
+        <div class="upper-middle-footer game-nav">
+          <a href="#game" class="footer-nav">Play the game</a>
         </div>
       </div>
 
@@ -120,7 +107,9 @@
     </div>
 
     <div class="lower-footer">
-      <div class="footer-logo">LOGO</div>
+      <a href="index.html" class="top-group">
+        <img src="images/icons/logo.png" class="footer-logo">
+      </a>
       <div class="lower-footer-div">189 Easton Ave, Montreal West, Quebec H4X 1L4</div>
       <div class="lower-footer-div">www.royalwestacademy.com</div>
       <div class="lower-footer-div">&#169; Royal West Academy</div>
@@ -128,4 +117,5 @@
   </footer>
 
   <script src="javascript/main.js"></script>
+  <script src="javascript/secondary-main.js"></script>
 </body>
